@@ -1,0 +1,42 @@
+.hd {
+ font-size: 50px;
+ font-weight: 550;
+ margin-bottom: 10px;
+}
+
+.aboutCard {
+ cursor: pointer;
+ background-color:lightcyan;
+ margin:0.5rem;
+ border-radius:5px;
+ border:1px solid lightgrey;
+}
+
+.aboutCard.hover,
+.aboutCard:hover {
+ box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.aboutImg {
+ margin-bottom: 35px;
+ -webkit-filter: drop-shadow(5px 5px 5px #222);
+ filter: drop-shadow(5px 5px 5px #222)
+}
+
+.aboutCard-title {
+ font-size: 22px;
+ font-weight: 600;
+}
+
+.ft {
+ margin-top: 25px
+}
+
+.chk {
+ margin-bottom: 5px
+}
+
+.rck {
+ margin-top: 20px;
+ padding-bottom: 15px
+}

@@ -1,0 +1,17 @@
+.pagination{
+ justify-content: center;
+}
+.pagination span{
+ text-decoration: none;
+ color:black;
+ padding: 0.4rem 0.5rem;
+ border: 1px solid black;
+ margin: 0 1rem;
+ border-radius: 25%;
+ transition: all 0.4s;
+}
+.pagination span:hover,
+.pagination span:active{
+ background: black;
+ color:white;
+}
